@@ -6,7 +6,7 @@
 
 ## 下載與安裝
 
-1. 從 [Releases](../../releases) 下載 `GTNH-2.9.0-繁體中文獨立翻譯包-2026-11-02.zip`。
+1. 從 [Releases](../../releases) 下載 `GTNH-2.9.0-zh-TW-beta1.zip`。
 2. 關閉遊戲，備份現有的繁中語言檔。
 3. 將 ZIP 內容解壓到 GTNH 2.9.0 正式版實例的 `.minecraft` 目錄。保留 ZIP 內的目錄結構，讓 `config/txloader/...` 等檔案回到原路徑。
 4. 在遊戲內選擇「繁體中文」。
