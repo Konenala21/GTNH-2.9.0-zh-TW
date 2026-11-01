@@ -1,0 +1,20 @@
+generator.RWG=真實世界生成-Alpha
+rwg.buginfo.line1=GTNH 2.2.0.0 附帶的 RWG 版本中存在一個bug，導致世界生成與之前版本不一致。
+rwg.buginfo.line2=該bug已修復，後續世界生成已恢復為 2.2.0.0 版本之前的樣式。
+rwg.buginfo.line3=不幸的是，無法自動檢測創建該世界時使用的版本。
+rwg.buginfo.line4=為了讓兩個版本的玩家都能繼續在他們的世界中游玩，而不會產生新的醜陋區塊邊界，
+rwg.buginfo.line5=此版本的 RWG 同時支持兩種世界生成風格，但在升級世界時需要你選擇使用哪一種。
+rwg.buginfo.perlin=除了 2.2.0.0 之外所有版本使用的RWG版本
+rwg.buginfo.opensimplex=2.2.0.0 使用的 RWG 版本
+
+rwg.noise.current_type=當前噪聲類型為 %s
+rwg.noise.unchanged=噪聲類型未改變。
+rwg.noise.was_set_to.unknown=噪聲類型設定為未知，將使用默認的 Perlin 噪聲。
+rwg.noise.was_set_to.generic=噪聲類型設定為%s
+rwg.noise.instant_new_chunks=所有新區塊將立即以選定的算法生成。
+rwg.noise.needs_restart=必須重新加載世界（重啟服務器或單人遊戲重新登錄）才能使更改生效。
+rwg.biomelists.current=此世界儲存的生態域清單：%s
+rwg.biomelists.unchanged=生態域清單已是 %s。
+rwg.biomelists.was_set_to=生態域清單已設為 %s。
+rwg.biomelists.chunk_borders=在現有區塊旁新生成的區塊會出現可見邊界，也可能改變生態域。
+rwg.biomelists.no_world=主世界尚未載入。

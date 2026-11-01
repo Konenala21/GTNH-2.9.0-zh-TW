@@ -1,0 +1,65 @@
+modularui2.test=測試文本\n第二行
+modularui2.tooltip.shift=§b按住Shift
+modularui2.increment.tooltip=§7點擊可將數字增加§6%d§7\n按住shift[§6%d§7]，ctrl[§6%d§7]或者shift+ctrl[§6%d§7]
+modularui2.decrement.tooltip=§7點擊可將數字減少§6%d§7\n按住shift[§6%d§7]，ctrl[§6%d§7]或者shift+ctrl[§6%d§7]
+modularui2.amount=§9數量：%,d
+modularui2.fluid.capacity=§9容量：%s %s
+modularui2.fluid.empty=空
+modularui2.fluid.amount=§9數量：%s/%s %s
+modularui2.fluid.phantom.amount=§9數量：%s%s
+modularui2.fluid.phantom.control=§7向上滾動鼠標滾輪增加數量，向下減少。\n§7Shift[§6x10§7],Ctrl[§ex100§7],Alt[§ax1000§7]\n§7右鍵增加數量，左鍵減少.\n§7Shift + 左鍵清空。
+modularui2.fluid.phantom.clear=§8左鍵移除
+modularui2.fluid.registry=§7註冊信息: %s
+modularui2.fluid.unique_registry=§7唯一註冊信息鍵: %s
+modularui2.fluid.temperature=§c溫度: %,d K
+modularui2.fluid.state=§a狀態: %s
+modularui2.fluid.gas=氣體
+modularui2.fluid.liquid=液體
+modularui2.item.phantom.control=§7向上滾動鼠標滾輪增加數量，向下減少。\n§7Shift[§6x8§7],Ctrl[§ex64§7],Alt[§ax512§7]\n§7右鍵增加數量，左鍵減少.\n§7Shift + 左鍵清空。
+
+modularui2.fluid.click_to_fill=§b左鍵§7使用流體容器點擊以§b填充§7流體槽。\n§c右鍵§7每次點擊處理一個物品。
+modularui2.fluid.click_combined=§b左鍵§7使用流體容器點擊以§c清空§7或§b填充§7流體槽。\n§c右鍵§7每次點擊處理一個物品。
+modularui2.fluid.click_to_empty=§b左鍵§7使用流體容器點擊以§c清空§7流體槽。\n§c右鍵§7每次點擊處理一個物品。
+
+# Debug Screen
+modularui2.debug.mouse_pos=§7鼠標位置: §3%d§7, §3%d
+modularui2.debug.fps=§7FPS: §3%d
+modularui2.debug.theme_id=§7主題 ID: §6%s
+modularui2.debug.widget_theme=§7Widget 主題: §6%s
+modularui2.debug.size=§7尺寸: §3%d§7, §3%d
+modularui2.debug.pos_rel=§7Pos: §3%d§7, §3%d§7  Rel: §3%d§7, §3%d
+modularui2.debug.widget=§7Widget: §6%s
+modularui2.debug.parent_size=§7父元素尺寸: §3%d§7, §3%d
+modularui2.debug.parent_pos_rel=§7父元素位置: §3%d§7, §3%d§7  Rel: §3%d§7, §3%d
+modularui2.debug.parent=§7父元素: §6%s
+modularui2.debug.slot_index=§7槽位序數: §3%d
+modularui2.debug.slot_number=§7槽位數: §3%d
+modularui2.debug.shift_click_priority=§7Shift點擊 優先級: §3%d
+modularui2.debug.disabled=§c已禁用
+modularui2.debug.hovered=§7懸停: §6%s
+
+# Config
+modularui2.config.default_scroll_speed=滾動速度
+modularui2.config.default_scroll_speed.tooltip=滾動像素數
+modularui2.config.smooth_progress_bar=平滑進度條
+modularui2.config.smooth_progress_bar.tooltip=進度條是按紋理像素還是屏幕像素步進。\n（屏幕像素要小得多，因此更平滑）
+modularui2.config.tooltip_pos=提示框位置
+modularui2.config.tooltip_pos.tooltip=組件或其面板周圍默認的提示框位置。
+modularui2.config.esc_restore_last_text=ESC鍵恢復上次輸入的文本
+modularui2.config.esc_restore_last_text.tooltip=如果為true，在文本框中按ESC鍵將恢復上一次輸入的文本，而不是保存當前輸入的文本。
+modularui2.config.show_slot_overlay=Show Slot Overlay
+modularui2.config.show_slot_overlay.tooltip=If true, display the slot overlay when the slot is occupied.
+modularui2.config.gui_debug_mode=GUI調試模式
+modularui2.config.gui_debug_mode.tooltip=如果為true，將繪製組件輪廓和組件信息。
+modularui2.config.use_dark_theme_by_default=默認使用暗色主題
+modularui2.config.use_dark_theme_by_default.tooltip=如果為true且未另行指定，界面將嘗試使用“vanilla_dark”主題。
+modularui2.config.debug_text_color=調試文本顏色
+modularui2.config.debug_text_color.tooltip=調試文本顏色。以#為前綴的十六進制值。常見顏色可直接用其英文名稱表示。
+modularui2.config.debug_outline_color=調試輪廓顏色
+modularui2.config.debug_outline_color.tooltip=調試輪廓顏色。以#為前綴的十六進制值。常見顏色可直接用其英文名稱表示。
+modularui2.config.enable_test_guis=啟用測試GUI
+modularui2.config.enable_test_guis.tooltip=Enables a test block, test item with a test gui and opening a gui by right clicking a diamond.
+modularui2.config.enable_test_overlays=Enable Test Overlays
+modularui2.config.enable_test_overlays.tooltip=Enables a test overlay shown on title screen and watermark shown on every GuiContainer.
+# modularui2.config.use_rich_tooltips=Enable RichTooltip
+# modularui2.config.use_rich_tooltips.tooltip=If true, vanilla tooltip will be replaced with MUI's RichTooltip

@@ -1,0 +1,6 @@
+defaultconfigs.cmd.createUpdateFile.failure=§c無法創建整合包更新文件(%1$s)
+defaultconfigs.cmd.createUpdateFile.success=§a整合包更新文件已在配置文件夾中創建.你應該始終將該文件放在你的整合包中;並且永遠放在那裡. 這將確保在更新時恢復localconfig.txt中定義的本地玩家配置.
+defaultconfigs.cmd.saveKeys.failure=§c保存鍵位設置失敗. 查看日誌以獲取更多信息.
+defaultconfigs.cmd.saveKeys.success=§a保存鍵位設置成功.
+defaultconfigs.cmd.saveOptions.failure=§c保存配置失敗. 查看日誌以獲取更多信息.
+defaultconfigs.cmd.saveOptions.success=§a成功保存配置.

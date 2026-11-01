@@ -1,0 +1,15 @@
+generator.RWG2=擬真 RC1
+generator.RWG2_CONTINENTS=RWG2 平滑模式
+rwg2.buginfo.line1=GTNH 2.2.0.0 隨附的 RWG 版本有一個錯誤，導致世界生成方式與先前版本不同。
+rwg2.buginfo.line2=此錯誤後來已修復，未來的世界生成方式恢復為 2.2.0.0 之前的樣式。
+rwg2.buginfo.line3=遺憾的是，無法自動偵測建立此世界時使用的版本。
+rwg2.buginfo.line4=為了讓兩種版本的玩家都能繼續遊玩原本的世界，且不會產生難看的新區塊邊界，
+rwg2.buginfo.line5=此版本的 RWG 支援兩種方式，但升級世界時必須選擇要使用哪一種。
+rwg2.buginfo.perlin=除 2.2.0.0 以外所有版本使用的方式
+rwg2.buginfo.opensimplex=2.2.0.0 使用的方式
+rwg2.noise.current_type=目前的雜訊類型：%s
+rwg2.noise.unchanged=雜訊類型未變更。
+rwg2.noise.was_set_to.unknown=雜訊類型已設為 UNKNOWN，將預設使用 Perlin。
+rwg2.noise.was_set_to.generic=雜訊類型已設為 %s
+rwg2.noise.instant_new_chunks=所有新區塊會立即使用所選演算法生成。
+rwg2.noise.needs_restart=必須重新載入世界（重啟伺服器或重新進入單人世界），變更才會生效。
