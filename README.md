@@ -1,10 +1,10 @@
 # GTNH 2.9.0 正式版繁體中文翻譯包
 
-想用繁體中文玩 GTNH 2.9.0，可以直接下載這份翻譯包。這是個人整理的版本，**GTNH 2.9.0 是正式版，beta 1 指的是翻譯包**。
+想用繁體中文玩 GTNH 2.9.0，可以直接下載這份翻譯包。這是個人整理的版本，**GTNH 2.9.0 是正式版，beta 2 指的是翻譯包**。
 
 ## 下載
 
-[下載繁中翻譯包 ZIP](https://github.com/Konenala21/GTNH-2.9.0-zh-TW/releases/download/zh-tw-beta.1-for-gtnh-2.9.0/GTNH-2.9.0-zh-TW-beta1.zip)
+[下載繁中翻譯包 ZIP](https://github.com/Konenala21/GTNH-2.9.0-zh-TW/releases/download/zh-tw-beta.2-for-gtnh-2.9.0/GTNH-2.9.0-zh-TW-beta2.zip)
 
 ## 安裝
 
@@ -19,7 +19,7 @@
 
 主要以 GTNH 2.9.0 正式版的簡體中文翻譯為基礎，用 OpenCC `s2tw` 轉成繁體，再對照英文與原有繁中檔案修正格式、名稱和描述。部分物品名稱參考 GTNH 中文 Wiki 與 MC百科，另外修正了 157 個描述或提示文字。
 
-目前的靜態比對涵蓋 74,947 個英文鍵，繁中缺鍵為 0。下載包內共有 294 份語言檔，已核對路徑與 SHA256。
+目前的靜態比對涵蓋 74,947 個英文鍵，繁中缺鍵為 0。下載包內共有 294 份語言檔，以及 InGameInfo XML 的繁中 HUD 設定檔，已核對路徑與 SHA256。
 
 注意：目前翻譯包尚未經過完整驗證。作者目前在遊戲前期查看時，暫未發現明顯問題。若遇到翻譯或排版異常，歡迎回報。
 
